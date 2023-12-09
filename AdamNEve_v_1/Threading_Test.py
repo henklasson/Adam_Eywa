@@ -99,7 +99,7 @@ def open_ai(question):
     #If your API key is stored in a file, you can point the openai module at it 
     # with 'openai.api_key_path = <PATH>'.
 
-    #openai.api_key = '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'
+
 
     model = 'text-davinci-003'
 

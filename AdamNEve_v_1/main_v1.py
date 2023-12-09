@@ -11,10 +11,7 @@ import time
 def open_ai(prompt):     
     openai.api_key_path = '/home/henrikvklasson/Adam_n_Eve/API_KEY.txt'
 
-    #If your API key is stored in a file, you can point the openai module at it 
-    # with 'openai.api_key_path = <PATH>'.
 
-    #openai.api_key = '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'
 
     model = 'text-davinci-003'
 
